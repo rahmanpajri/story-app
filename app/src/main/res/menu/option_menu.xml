@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/change_language"
+        android:title="Language"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_language_24"
+        />
+    <item
+        android:id="@+id/maps"
+        android:title="Maps"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_map_24"/>
+    <item
+        android:id="@+id/action_logout"
+        android:title="Logout"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_logout_24"/>
+</menu>
